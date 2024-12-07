@@ -154,7 +154,7 @@ nav {
   width: 100%;
   height: 3%;
   background-color: gray;
-  margin: 1.5%;
+  margin: 1.5% 0%;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 2 */
@@ -175,9 +175,8 @@ nav {
   width: 100%;
   height: 3%;
   background-color: gray;
-  margin: 1.5%;
+  margin: 1.5% 0%;
 }
-/* 반응형으로 바꾸는 중...  */
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 3 */
 .selectProgram {
@@ -191,16 +190,16 @@ nav {
 }
 
 .selectProgram .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: white;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 4 */
 .selectProgramStudy {
   background-color: steelblue;
-  padding: 10px;
+  padding: 5%;
 }
 
 .selectProgramStudy h3 {
@@ -213,16 +212,17 @@ nav {
 }
 
 .selectProgramStudy .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: white;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 5 */
 .oneLibraryOneBook {
   background-color: lightgray;
-  padding: 10px;
+  padding: 5%;
 }
 
 .oneLibraryOneBook h3 {
@@ -230,21 +230,22 @@ nav {
 }
 
 .oneLibraryOneBook p {
-  font-size: 13px;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
 .oneLibraryOneBook .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 6 */
 .bookClub {
   background-color: white;
-  padding: 10px;
+  padding: 5%;
 }
 
 .bookClub p {
@@ -253,17 +254,19 @@ nav {
 }
 
 .bookClub .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
+/* 반응형으로 바꾸는 중...  */
 
 /* 메인 - 섹션 - second */
 .second {
   margin-left: 18%;
   display: grid;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* 메인 - 섹션 - second - 신착자료 */
