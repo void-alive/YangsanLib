@@ -32,7 +32,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0% 5%;
+}
+
+.navMenu{
+  text-decoration: none;
+  color: black;
 }
 
 .libraryLogo {
@@ -48,6 +52,20 @@ nav {
 
 .nav1 h3 {
   margin: 10px;
+}
+
+
+.nav1 h3:hover{
+  color: steelblue;
+}
+
+.nav2{
+  background-color: steelblue;
+  color: white;
+}
+
+.nav2 p{
+  margin: 0% 0.5%;
 }
 
 /* 백그라운드 */
