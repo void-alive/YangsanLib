@@ -481,27 +481,26 @@ nav {
   font-size: 32px;
   color: green;
 }
-/* 반응형 진행중 */
 
 /* 메인 - 섹션 - fourth */
 .third {
   background-color: steelblue;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .third .word {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 1%;
+  padding: 1%;
   color: white;
   font-weight: bold;
 }
 
 /* 푸터 */
 footer {
-  margin: 0% 25%;
+  margin: 0% 0% 0% 18%;
   display: flex;
   align-items: center;
 }
