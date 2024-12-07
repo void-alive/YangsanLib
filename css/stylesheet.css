@@ -370,10 +370,11 @@ nav {
 }
 
 .kakaoTalk .fa-solid {
-  font-size: 2em;
-  margin-right: 1%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  background-color: gold;
+  border-radius: 50%;
+  padding: 7%;
+  font-size: 1em;
+  margin: 10% 1% 10% 0%;
 }
 
 .shortCut .instagram {
@@ -384,20 +385,24 @@ nav {
 }
 
 .instagram .fa-brands {
-  font-size: 2em;
-  margin-right: 1%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  background: linear-gradient(to left bottom, orange, purple);
+  color: white;
+  border-radius: 50%;
+  padding: 7%;
+  font-size: 1em;
+  margin: 10% 5% 10% 0%;
 }
 
 /* 메인 - 섹션 - subMenu */
 .subMenu {
   display: flex;
-  margin-top: -90px;
+  margin-left: 20%;
+  margin-top: -5%;
+  gap: 4%;
 }
 
 .subMenu p {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 /* 메인 - 섹션 - subMenu - 돋보기 */
@@ -408,28 +413,25 @@ nav {
 .libraryLoan .fa-solid {
   background-color: lightgray;
   border-radius: 50%;
-  padding: 15px;
-  font-size: 32px;
+  padding: 25% 27%;
+  font-size: 2em;
   color: green;
 }
 
 /* 메인 - 섹션 - subMenu - 사서물어보기 */
 .askToLibrarian {
-  margin-left: 50px;
   text-align: center;
 }
-
 .askToLibrarian .fa-solid {
   background-color: lightgray;
   border-radius: 50%;
-  padding: 15px 17px;
+  padding: 20% 22%;
   font-size: 32px;
   color: green;
 }
 
 /* 메인 - 섹션 - subMenu - 책바다 */
 .bookSea {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -443,7 +445,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 책나래 */
 .bookWing {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -457,7 +458,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 청소년자원봉사 */
 .teenagerVolunteer {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -471,7 +471,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 오는 길 */
 .howToCome {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -482,6 +481,7 @@ nav {
   font-size: 32px;
   color: green;
 }
+/* 반응형 진행중 */
 
 /* 메인 - 섹션 - fourth */
 .third {
