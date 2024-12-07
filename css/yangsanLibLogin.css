@@ -8,13 +8,18 @@ header {
   color: white;
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 0.5% 0%;
+}
+
+header a:link, header a:visited{
+  text-decoration: none;
+  color: white;
 }
 
 .headerMenu {
   flex-direction: row;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
 }
 
 header .headerBlank {
