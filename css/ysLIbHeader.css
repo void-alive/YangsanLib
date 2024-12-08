@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+}
+
+/* 헤더 */
+header {
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5% 0%;
+}
+
+header a:link, header a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.headerMenu {
+  flex-direction: row;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+header .headerBlank {
+  margin-right: 18%;
+}

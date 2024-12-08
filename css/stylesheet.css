@@ -1,73 +1,3 @@
-* {
-  margin: 0%;
-}
-
-/* 헤더 */
-header {
-  background-color: steelblue;
-  color: white;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5% 0%;
-}
-
-header a:link, header a:visited{
-  text-decoration: none;
-  color: white;
-}
-
-.headerMenu {
-  flex-direction: row;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-}
-
-header .headerBlank {
-  margin-right: 18%;
-}
-
-/* 네비게이션 */
-nav {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navMenu{
-  text-decoration: none;
-  color: black;
-}
-
-.libraryLogo {
-  margin: 10% 0%;
-  scale: 80%;
-}
-
-.nav1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav1 h3 {
-  margin: 10px;
-}
-
-
-.nav1 h3:hover{
-  color: steelblue;
-}
-
-.nav2{
-  background-color: steelblue;
-  color: white;
-}
-
-.nav2 p{
-  margin: 0% 0.5%;
-}
-
 /* 백그라운드 */
 .backgroundImage {
   background-image: url(../images/library.jpg);
@@ -128,6 +58,7 @@ nav {
 .announce {
   background-color: white;
   padding: 2%;
+  margin-top: 5%;
 }
 
 .announce .line {
@@ -148,6 +79,7 @@ nav {
 
 /* 메인 - 섹션 - first - sixMenu */
 .sixMenu {
+  margin-top: 5%;
   margin-right: 25%;
   display: grid;
   grid-template-rows: 1fr 1fr;

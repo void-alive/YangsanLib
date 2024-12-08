@@ -1,0 +1,45 @@
+
+.first {
+  background-color: steelblue;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.first .word {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+}
+
+/* 푸터 */
+.second {
+  margin-left: 18%;
+  display: flex;
+  align-items: center;
+}
+
+.second .image {
+  margin: 2%;
+}
+
+.second .ect {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.second .site {
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.site select {
+  font-size: 1em;
+}
+
+.site .button {
+  border: 1px solid grey;
+  background-color: white;
+}

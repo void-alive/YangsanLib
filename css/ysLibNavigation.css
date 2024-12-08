@@ -1,0 +1,41 @@
+/* 네비게이션 */
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navMenu{
+  text-decoration: none;
+  color: black;
+}
+
+.libraryLogo {
+  margin: 2% 0%;
+  scale: 80%;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 h3 {
+  margin: 10px;
+}
+
+
+.nav1 h3:hover{
+  color: steelblue;
+}
+
+.nav2{
+  background-color: steelblue;
+  color: white;
+}
+
+.nav2 p{
+  margin: 0% 0.5%;
+}
