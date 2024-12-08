@@ -8,17 +8,22 @@ header {
   color: white;
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 0.5% 0%;
+}
+
+header a:link, header a:visited{
+  text-decoration: none;
+  color: white;
 }
 
 .headerMenu {
   flex-direction: row;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
 }
 
 header .headerBlank {
-  margin-right: 21%;
+  margin-right: 18%;
 }
 
 /* 네비게이션 */
@@ -46,15 +51,15 @@ nav {
 }
 
 /* 메인 - remote */
-.remote{
+.remote {
   display: grid;
-  grid-template-rows: 50px 50px 50px 50px;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
   grid-template-columns: 200px;
-  margin: 0px 0px 0px 450px;
+  margin-left: 55%;
   text-align: center;
 }
 
-.remote p{
+.remote p {
   align-content: center;
   background-color: green;
   color: white;
@@ -62,36 +67,38 @@ nav {
 }
 
 .rest p {
-  padding:10px 0px;
+  padding: 5%;
   background-color: white;
   color: black;
 }
 
-.rest .restLogin{
+.rest .restLogin {
   background-color: steelblue;
   color: white;
 }
 
-.rest a:link, .rest a:visited{
+.rest a:link,
+.rest a:visited {
   text-decoration: none;
 }
 
 /* 메인 - 로그인 제목 */
-main{
+main {
   display: grid;
-  grid-template-columns: 700px 750px;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 18%;
 }
 
-main .login{
-  margin-top: 40px;
+main .login {
+  margin-top: 5%;
 }
 
-.login h3{
-  font-size: 40px;
-  margin-bottom: 5px;
+.login h3 {
+  font-size: 2.5em;
+  margin-bottom: 1%;
 }
 
-.loginLine{
+.loginLine {
   width: 750px;
   height: 2px;
   background-color: black;
@@ -99,46 +106,52 @@ main .login{
 }
 
 /* 메인 - 로그인 내부 */
-fieldset{
+fieldset {
   background-color: lightgray;
   border: none;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 5%;
+  padding-bottom: 7.5%;
 }
 
-fieldset .welcome{
-  font-size: 20px;
+fieldset .welcome {
+  font-size: 1.5em;
   font-weight: bold;
 }
 
-fieldset span{
+fieldset span {
   color: steelblue;
 }
 
-.fieldsetLine{
-  width: 430px;
+.fieldsetLine {
+  width: 60%;
   border: 1px dashed gray;
-  margin: 5px 0px 15px 150px;
+  margin: 2% 0% 2% 20%;
 }
 
 /* 메인 - 로그인 번호 입력 */
-.container{
+.container {
   display: grid;
-  margin-left: 135px;
-  grid-template-columns: 350px 100px;
+  margin-left: 18%;
+  grid-template-columns: 3fr 1fr;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-right: 18%;
+  margin-bottom: 4%;
 }
 
-.idAndPw{
+.idAndPw {
   display: grid;
-  grid-template-rows: 30px 30px;
+  grid-template-rows: 1fr 1fr;
   gap: 5px;
   border: none;
 }
 
-button{
+.idAndPw input{
+  font-size: 1.2em;
+  padding: 1% 0% 1% 0%;
+}
+
+button {
   background-color: green;
   text-align: center;
   color: white;
@@ -147,47 +160,61 @@ button{
 }
 
 /* 메인 - 회원가입 등 설명문 */
-.lowMenu{
+.lowMenu {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
-.lowMenu p{
-  padding: 0px 5px;
+.lowMenu p {
+  padding: 0% 1%;
 }
 
-.explain2{
-  margin-left: 22px;
+.explain2 {
+  margin-left: 3%;
 }
+
+.first {
+  background-color: steelblue;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.first .word {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+}
+
 /* 푸터 */
-footer {
-  margin: 0px 0px 0px 450px;
+.second {
+  margin-left: 18%;
   display: flex;
   align-items: center;
 }
 
-footer .image{
-  margin: 10px;
+.second .image {
+  margin: 2%;
 }
 
-footer .ect{
+.second .ect {
   color: gray;
-  font-size: 10px;
-  margin-top: -5px;
-  margin-left: 30px;
+  font-size: 0.8em;
 }
 
-footer .site{
-  margin-left: 220px;
-  margin-top: -20px;
+.second .site {
+  margin-left: 5%;
+  margin-top: -2%;
 }
 
-.site select{
-  font-size: 16px;
+.site select {
+  font-size: 1em;
 }
 
-.site .button{
+.site .button {
   border: 1px solid grey;
   background-color: white;
 }

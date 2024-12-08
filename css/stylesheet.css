@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0%;
 }
 
 /* 헤더 */
@@ -8,7 +8,7 @@ header {
   color: white;
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 0.5% 0%;
 }
 
 header a:link, header a:visited{
@@ -18,12 +18,12 @@ header a:link, header a:visited{
 
 .headerMenu {
   flex-direction: row;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
 }
 
 header .headerBlank {
-  /* margin-right: 21%; */
+  margin-right: 18%;
 }
 
 /* 네비게이션 */
@@ -32,7 +32,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0% 5%;
+}
+
+.navMenu{
+  text-decoration: none;
+  color: black;
 }
 
 .libraryLogo {
@@ -50,11 +54,25 @@ nav {
   margin: 10px;
 }
 
+
+.nav1 h3:hover{
+  color: steelblue;
+}
+
+.nav2{
+  background-color: steelblue;
+  color: white;
+}
+
+.nav2 p{
+  margin: 0% 0.5%;
+}
+
 /* 백그라운드 */
 .backgroundImage {
   background-image: url(../images/library.jpg);
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -67,7 +85,7 @@ nav {
   border: 5px solid darkgreen;
   justify-content: center;
   align-items: center;
-  margin: 0% 25%;
+  margin: 0% 5% 0% 18%;
 }
 
 .search .button {
@@ -75,48 +93,48 @@ nav {
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 .search .text {
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 /* 백그라운드 - 양산도서관 */
 .language {
-  margin: 0px 0px 0px 50px;
   color: white;
   float: right;
 }
 
 .language1 {
-  font-size: 15px;
+  font-size: 1em;
 }
 
 .language2 {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight: bolder;
   color: lightblue;
 }
 
 /* 메인 - 섹션 - first */
 .first {
-  margin: 0% 25%;
+  margin-top: -12%;
+  margin-left: 18%;
   display: grid;
-  grid-template-columns: 400px 100px;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* 메인 - 섹션 - first - announce */
 .announce {
   background-color: white;
-  padding: 10px;
+  padding: 2%;
 }
 
 .announce .line {
-  width: 370px;
-  height: 2px;
+  width: 100%;
+  height: 1.1%;
   background-color: gray;
-  margin: 2.5px;
+  margin: 1%;
 }
 
 .announce1 {
@@ -124,23 +142,22 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 .announce1 .fa-solid {
-  margin-right: 10px;
+  margin-right: 5%;
 }
 
 /* 메인 - 섹션 - first - sixMenu */
 .sixMenu {
+  margin-right: 25%;
   display: grid;
-  grid-template-rows: 100px 100px;
-  grid-template-columns: 200px 200px 200px;
-  /* padding: 10px 0px; */
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 1 */
 .myLibrary {
   background-color: lightgray;
-  padding: 10px;
+  padding: 5%;
 }
 
 .myLibrary h3 {
@@ -152,16 +169,16 @@ nav {
 }
 
 .myLibrary .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 2 */
 .electricLibrary {
   background-color: white;
-  padding: 10px;
+  padding: 5%;
 }
 
 .electricLibrary h3 {
@@ -173,16 +190,16 @@ nav {
 }
 
 .electricLibrary .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 3 */
 .selectProgram {
   background-color: skyblue;
-  padding: 10px;
+  padding: 5%;
   color: white;
 }
 
@@ -191,16 +208,16 @@ nav {
 }
 
 .selectProgram .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: white;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 4 */
 .selectProgramStudy {
   background-color: steelblue;
-  padding: 10px;
+  padding: 5%;
 }
 
 .selectProgramStudy h3 {
@@ -213,16 +230,17 @@ nav {
 }
 
 .selectProgramStudy .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: white;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 5 */
 .oneLibraryOneBook {
   background-color: lightgray;
-  padding: 10px;
+  padding: 5%;
 }
 
 .oneLibraryOneBook h3 {
@@ -230,21 +248,22 @@ nav {
 }
 
 .oneLibraryOneBook p {
-  font-size: 13px;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
 .oneLibraryOneBook .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
 
 /* 메인 - 섹션 - first - sixMenu - 메뉴 6 */
 .bookClub {
   background-color: white;
-  padding: 10px;
+  padding: 5%;
 }
 
 .bookClub p {
@@ -253,35 +272,37 @@ nav {
 }
 
 .bookClub .line {
-  width: 170px;
-  height: 2px;
+  width: 100%;
+  height: 3%;
   background-color: gray;
-  margin: 2.5px 0px;
+  margin: 1.5% 0%;
 }
+
 
 /* 메인 - 섹션 - second */
 .second {
-  margin: 0% 25%;
+  margin-left: 18%;
+  margin-top: 1%;
   display: grid;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
 }
 
 /* 메인 - 섹션 - second - 신착자료 */
-.newArrive {
-  width: 310px;
-  height: 200px;
-}
 
 .newArrive .line {
-  width: 310px;
-  height: 2px;
+  width: 82%;
+  height: 0.5%;
   background-color: gray;
-  margin: 5px 0px;
+  margin: 0.5% 0%;
+}
+
+.newArrive .fa-solid{
+  margin-right: 18%;
 }
 
 .newArrive .books {
   display: flex;
-  gap: 3px;
+  gap: 1%;
 }
 
 .newArrive .container {
@@ -291,24 +312,25 @@ nav {
 }
 
 .books img {
-  padding: 10px 0px;
+  padding: 4% 0%;
   width: 100px;
 }
 
 /* 메인 - 섹션 - second - 휴관일 표 */
+.table h3{
+  margin-bottom: 2%;
+}
+
 .table table,
 .table th,
 .table td {
-  margin: 5px 0px;
+  margin: 1% 0%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
-  font-size: 10px;
-  padding: 5px 1px;
-}
-
-.table h3 {
-  /* margin: 0px 0px 5px 0px; */
+  font-size: 0.5em;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .table .blueTable {
@@ -323,42 +345,42 @@ nav {
 
 /* 메인 - 섹션 - second - 휴관일 */
 .second .dayOff {
-  width: 292px;
-  height: 100px;
+  width: 78%;
+  height: 20%;
   border: 1px solid gray;
-  margin-top: 32px;
+  margin-top: 10%;
   display: flex;
   align-items: center;
-
 }
 
 .dayOff .fa-solid {
-  color: steelblue;
-  scale: 300%;
-  margin: 32px;
+  background-color: steelblue;
+  padding: 5.5% 6.5%;
+  color: white;
+  border-radius: 50%;
+  font-size: 2em;
+  margin-left: 4%;
 }
 
 .dayOff p {
   color: red;
-  margin-bottom: 60px;
-  font-size: 15px;
+  margin-bottom: 20%;
+  margin-left: 5%;
+  font-size: 1em;
 }
 
 /* 메인 - 섹션 - second - 바로가기 */
-
 .shortCut .sns {
   display: grid;
-  grid-template-columns: 140px 140px;
-  gap: 10px;
+  grid-template-columns: 0.39fr 0.39fr;
+  gap: 2.5%;
 }
 
 .shortCut h3 {
-  margin-top: 32px;
+  margin-top: 5%;
 }
 
 .shortCut .kakaoTalk {
-  width: 140px;
-  height: 80px;
   border: 1px solid gray;
   display: flex;
   align-items: center;
@@ -366,14 +388,14 @@ nav {
 }
 
 .kakaoTalk .fa-solid {
-  scale: 150%;
-  margin-right: 10px;
-  margin-left: 10px;
+  background-color: gold;
+  border-radius: 50%;
+  padding: 7%;
+  font-size: 1em;
+  margin: 10% 1% 10% 0%;
 }
 
 .shortCut .instagram {
-  width: 140px;
-  height: 80px;
   border: 1px solid gray;
   display: flex;
   align-items: center;
@@ -381,19 +403,24 @@ nav {
 }
 
 .instagram .fa-brands {
-  scale: 175%;
-  margin-right: 10px;
-  margin-left: 10px;
+  background: linear-gradient(to left bottom, orange, purple);
+  color: white;
+  border-radius: 50%;
+  padding: 7%;
+  font-size: 1em;
+  margin: 10% 5% 10% 0%;
 }
 
 /* 메인 - 섹션 - subMenu */
 .subMenu {
   display: flex;
-  margin-top: -90px;
+  margin-left: 20%;
+  margin-top: -5%;
+  gap: 4%;
 }
 
 .subMenu p {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 /* 메인 - 섹션 - subMenu - 돋보기 */
@@ -404,28 +431,25 @@ nav {
 .libraryLoan .fa-solid {
   background-color: lightgray;
   border-radius: 50%;
-  padding: 15px;
-  font-size: 32px;
+  padding: 25% 27%;
+  font-size: 2em;
   color: green;
 }
 
 /* 메인 - 섹션 - subMenu - 사서물어보기 */
 .askToLibrarian {
-  margin-left: 50px;
   text-align: center;
 }
-
 .askToLibrarian .fa-solid {
   background-color: lightgray;
   border-radius: 50%;
-  padding: 15px 17px;
+  padding: 20% 22%;
   font-size: 32px;
   color: green;
 }
 
 /* 메인 - 섹션 - subMenu - 책바다 */
 .bookSea {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -439,7 +463,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 책나래 */
 .bookWing {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -453,7 +476,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 청소년자원봉사 */
 .teenagerVolunteer {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -467,7 +489,6 @@ nav {
 
 /* 메인 - 섹션 - subMenu - 오는 길 */
 .howToCome {
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -482,22 +503,22 @@ nav {
 /* 메인 - 섹션 - fourth */
 .third {
   background-color: steelblue;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .third .word {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 1%;
+  padding: 1%;
   color: white;
   font-weight: bold;
 }
 
 /* 푸터 */
 footer {
-  margin: 0% 25%;
+  margin: 0% 0% 0% 18%;
   display: flex;
   align-items: center;
 }
