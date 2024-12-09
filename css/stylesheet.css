@@ -15,7 +15,7 @@
   border: 5px solid darkgreen;
   justify-content: center;
   align-items: center;
-  margin: 0% 5% 0% 18%;
+  margin: 0% 5% 0% 20%;
 }
 
 .search .button {
@@ -62,11 +62,15 @@
 }
 
 .navMenu:hover .navMenuInside {
-  display: block;
+  display: inline-block;
   background-color: steelblue;
   color: white;
   justify-content: flex-end;
   padding: 0.5% 0%;
+}
+
+.navMenuInside1{
+  display: inline-block;
 }
 
 /* 메인 - 섹션 - first */
@@ -238,7 +242,7 @@
 /* 메인 - 섹션 - second */
 .second {
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 15%;
   margin-top: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -247,6 +251,7 @@
 /* 메인 - 섹션 - second - 신착자료 */
 
 .newArrive .line {
+  width: 83%;
   height: 0.5%;
   background-color: gray;
   margin: 0.5% 0%;
@@ -301,7 +306,7 @@
 
 /* 메인 - 섹션 - second - 휴관일 */
 .second .dayOff {
-  width: 78%;
+  width: 70%;
   height: 20%;
   border: 1px solid gray;
   margin-top: 10%;
@@ -321,14 +326,13 @@
 .dayOff p {
   color: red;
   margin-bottom: 20%;
-  margin-left: 5%;
   font-size: 1em;
 }
 
 /* 메인 - 섹션 - second - 바로가기 */
 .shortCut .sns {
   display: grid;
-  grid-template-columns: 0.39fr 0.39fr;
+  grid-template-columns: 0.35fr 0.35fr;
   gap: 2.5%;
 }
 
