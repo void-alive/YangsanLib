@@ -62,7 +62,11 @@
 }
 
 .navMenu:hover .navMenuInside {
-  display: block;
+  display: flex;
+  background-color: steelblue;
+  color: white;
+  justify-content: flex-end;
+  padding: 0.5% 0%;
 }
 
 /* 메인 - 섹션 - first */
