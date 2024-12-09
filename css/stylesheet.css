@@ -46,10 +46,30 @@
   color: lightblue;
 }
 
+.navMenu{
+  position: relative;
+  display: inline-block;
+}
+
+.navMenuInside {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navMenu:hover .navMenuInside {
+  display: block;
+}
+
 /* 메인 - 섹션 - first */
 .first {
   margin-top: -12%;
-  margin-left: 18%;
+  margin-left: 20%;
+  margin-right: 20%;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -80,7 +100,7 @@
 /* 메인 - 섹션 - first - sixMenu */
 .sixMenu {
   margin-top: 5%;
-  margin-right: 25%;
+  /* margin-right: 25%; */
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -213,16 +233,16 @@
 
 /* 메인 - 섹션 - second */
 .second {
-  margin-left: 18%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 1%;
   display: grid;
-  grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* 메인 - 섹션 - second - 신착자료 */
 
 .newArrive .line {
-  width: 82%;
   height: 0.5%;
   background-color: gray;
   margin: 0.5% 0%;
