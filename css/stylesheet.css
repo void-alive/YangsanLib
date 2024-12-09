@@ -62,7 +62,7 @@
 }
 
 .navMenu:hover .navMenuInside {
-  display: flex;
+  display: block;
   background-color: steelblue;
   color: white;
   justify-content: flex-end;
@@ -82,7 +82,7 @@
 .announce {
   background-color: white;
   padding: 2%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .announce .line {
