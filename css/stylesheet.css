@@ -46,7 +46,7 @@
   color: lightblue;
 }
 
-.navMenu{
+.navMenu {
   position: relative;
   display: inline-block;
 }
@@ -56,7 +56,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
@@ -69,7 +69,7 @@
   padding: 0.5% 0%;
 }
 
-.navMenuInside1{
+.navMenuInside1 {
   display: inline-block;
 }
 
@@ -101,6 +101,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .announce1 .fa-solid {
   margin-right: 5%;
 }
@@ -108,7 +109,6 @@
 /* 메인 - 섹션 - first - sixMenu */
 .sixMenu {
   margin-top: 5%;
-  /* margin-right: 25%; */
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -257,7 +257,7 @@
   margin: 0.5% 0%;
 }
 
-.newArrive .fa-solid{
+.newArrive .fa-solid {
   margin-right: 18%;
 }
 
@@ -278,7 +278,7 @@
 }
 
 /* 메인 - 섹션 - second - 휴관일 표 */
-.table h3{
+.table h3 {
   margin-bottom: 2%;
 }
 
@@ -316,7 +316,7 @@
 
 .dayOff .fa-solid {
   background-color: steelblue;
-  padding: 5.5% 6.5%;
+  padding: 10px 15px;
   color: white;
   border-radius: 50%;
   font-size: 2em;
@@ -325,19 +325,21 @@
 
 .dayOff p {
   color: red;
-  margin-bottom: 20%;
+  margin-bottom: 25px;
   font-size: 1em;
 }
 
 /* 메인 - 섹션 - second - 바로가기 */
 .shortCut .sns {
   display: grid;
-  grid-template-columns: 0.35fr 0.35fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2.5%;
+  margin-left: 50px;
 }
 
 .shortCut h3 {
   margin-top: 5%;
+  margin-left: 50px;
 }
 
 .shortCut .kakaoTalk {
@@ -345,6 +347,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 30px;
 }
 
 .kakaoTalk .fa-solid {
@@ -352,7 +355,6 @@
   border-radius: 50%;
   padding: 7%;
   font-size: 1em;
-  margin: 10% 1% 10% 0%;
 }
 
 .shortCut .instagram {
@@ -375,7 +377,6 @@
 .subMenu {
   display: flex;
   margin-left: 20%;
-  margin-top: -5%;
   gap: 4%;
 }
 
@@ -400,6 +401,7 @@
 .askToLibrarian {
   text-align: center;
 }
+
 .askToLibrarian .fa-solid {
   background-color: lightgray;
   border-radius: 50%;
@@ -483,27 +485,339 @@ footer {
   align-items: center;
 }
 
-footer .image{
+footer .image {
   margin: 10px;
 }
 
-footer .ect{
+footer .ect {
   color: gray;
   font-size: 10px;
   margin-top: -5px;
   margin-left: 30px;
 }
 
-footer .site{
+footer .site {
   margin-left: 220px;
   margin-top: -20px;
 }
 
-.site select{
+.site select {
   font-size: 16px;
 }
 
-.site .button{
+.site .button {
   border: 1px solid grey;
   background-color: white;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+
+  /* 백그라운드 - 검색 */
+  .search {
+    display: none;
+  }
+
+  /* 백그라운드 - 양산도서관 */
+  .language {
+    margin-left: 10%;
+    color: white;
+  }
+
+  .navMenu {
+    display: none;
+  }
+
+  /* 메인 - 섹션 - first */
+  .first {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* 메인 - 섹션 - first - announce */
+  .announce {
+    font-size: 0.9em;
+  }
+
+  /* 메인 - 섹션 - first - sixMenu */
+  .sixMenu {
+    margin-top: 10%;
+    font-size: 0.8em;
+  }
+
+  .myLibrary {
+    padding: 10% 8%;
+  }
+
+  .electricLibrary {
+    padding: 10% 8%;
+  }
+
+  .selectProgram {
+    padding: 10% 8%;
+  }
+
+  .selectProgramStudy {
+    padding: 10% 8%;
+  }
+
+  .oneLibraryOneBook {
+    padding: 10% 8%;
+  }
+
+  .bookClub {
+    padding: 10% 8%;
+  }
+
+  .bookClub .line {
+    width: 100%;
+    height: 2%;
+    background-color: gray;
+    margin-top: 21px;
+  }
+
+  /* 메인 - 섹션 - second */
+  .second {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .educationMinistry {
+    width: 340px;
+    background-color: navy;
+  }
+
+  .newArrive {
+    margin-left: -120px;
+  }
+
+  .shortCut {
+    display: none;
+  }
+
+  /* 메인 - 섹션 - second - 휴관일 표 */
+  .table {
+    width: 500px;
+    margin-top: 20px;
+  }
+
+  .table h3 {
+    margin-bottom: 2%;
+  }
+
+  .table table,
+  .table tr,
+  .table td {
+    font-size: 0.9em;
+  }
+
+  .table td {
+    padding: 10px 20px;
+  }
+
+  /* 메인 - 섹션 - second - 휴관일 */
+  .second .dayOff {
+    width: 600px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* 메인 - 섹션 - subMenu - 돋보기 */
+  .second2 .subMenu {
+    margin-top: 20px;
+  }
+
+  /* 메인 - 섹션 - fourth */
+  .third {
+    display: none;
+  }
+
+  /* 푸터 */
+  footer {
+    margin-top: 20px;
+  }
+
+  footer .site {
+    display: none;
+  }
+}
+
+@media screen and (max-width : 767px) {
+   /* 백그라운드 */
+   .backgroundImage {
+    height: 250px;
+  }
+
+  /* 백그라운드 - 검색 */
+  .search {
+    display: none;
+  }
+
+  /* 백그라운드 - 양산도서관 */
+  .language {
+    margin-left: 10%;
+    color: white;
+  }
+
+  .navMenu {
+    display: none;
+  }
+
+  /* 메인 - 섹션 - first */
+  .first {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    margin-top: 0px;
+  }
+
+  /* 메인 - 섹션 - first - announce */
+  .announce {
+    font-size: 0.9em;
+  }
+
+  /* 메인 - 섹션 - first - sixMenu */
+  .sixMenu {
+    font-size: 0.8em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .myLibrary {
+    padding: 10% 8%;
+  }
+  
+  .myLibrary .line {
+    width: 100%;
+    height: 3%;
+    background-color: gray;
+    margin-top: 21px;
+  }
+
+  .electricLibrary {
+    padding: 10% 8%;
+  }
+  
+  .electricLibrary .line {
+    width: 100%;
+    height: 3%;
+    background-color: gray;
+    margin-top: 21px;
+  }
+
+  .selectProgram {
+    padding: 10% 8%;
+  }
+  
+  .selectProgram .line {
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    margin-top: 21px;
+  }
+
+  .selectProgramStudy {
+    padding: 10% 8%;
+  }
+
+  .selectProgramStudy .line {
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    margin-top: 21px;
+  }
+  
+  .oneLibraryOneBook {
+    padding: 10% 8%;
+  }
+
+  .oneLibraryOneBook .line {
+    width: 100%;
+    height: 3%;
+    background-color: gray;
+    margin-top: 21px;
+  }
+
+  .bookClub {
+    padding: 10% 8%;
+  }
+
+  .bookClub .line {
+    width: 100%;
+    height: 3%;
+    background-color: gray;
+    margin-top: 21px;
+  }
+
+  /* 메인 - 섹션 - second */
+  .second {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    margin-top: 0px;
+  }
+
+  .educationMinistry {
+    width: 400px;
+  }
+
+  .newArrive .line {
+    width: 300px;
+    height: 3px;
+  }
+  
+  .newArrive .fa-solid {
+    margin-right: 0px;
+  }
+
+  .shortCut {
+    display: none;
+  }
+
+  /* 메인 - 섹션 - second - 휴관일 표 */
+  .table {
+    width: 450px;
+    margin-top: 20px;
+  }
+
+  .table table,
+  .table tr,
+  .table td {
+    font-size: 0.8em;
+  }
+
+  /* 메인 - 섹션 - second - 휴관일 */
+  .second .dayOff {
+    width: 290px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* 메인 - 섹션 - subMenu - 돋보기 */
+  .second2 .subMenu {
+    margin-top: 20px;
+  }
+
+  /* 메인 - 섹션 - fourth */
+  .third {
+    display: none;
+  }
+
+  /* 푸터 */
+  footer {
+    margin-top: 20px;
+  }
+
+  footer .site {
+    display: none;
+  }
 }

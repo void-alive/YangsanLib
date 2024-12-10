@@ -11,6 +11,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/ysLIbHeader.css">
   <link rel="stylesheet" href="css/ysLibNavigation.css">
+  <link rel="stylesheet" media="screen" href="css/ysLIbHeader.css">
+
 </head>
 
 <body>
@@ -34,8 +36,14 @@
   <!-- 마우스 올리면 색 변하고 다른 작은 메뉴들 나오게 -->
   <!-- 여러 시도를 해봤는데 이 이상은 못하겠어요 -->
   <!-- 만약에 더 좋은 방법이 있다면 알려주시면 감사하겠습니다. -->
-  <nav class="nav1">
-    <a href="yangsanLib.html"><img src="images/libraryLogo.png" class="libraryLogo"></a>
+  <nav>
+    <div class="nav1">
+      <div class="mobileCard">
+        <span><p>모바일<br>회원증</p></span>
+      </div>
+      <a href="yangsanLib.html"><img src="images/libraryLogo.png" class="libraryLogo"></a>
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
     <div class="navMenu">
       <span>
         <h3>이용안내</h3>
@@ -289,19 +297,6 @@
           <i class="fa-solid fa-calendar-days"></i>
           <p><b>12월 휴관일</b></p>
         </div>
-        <div class="shortCut">
-          <h3>바로가기</h3>
-          <div class="sns">
-            <div class="kakaoTalk">
-              <i class="fa-solid fa-comment"></i>
-              <p><b>카카오톡 채널</b></p>
-            </div>
-            <div class="instagram">
-              <i class="fa-brands fa-instagram"></i>
-              <p><b>인스타그램</b></p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
     <section class="second2">
@@ -342,7 +337,21 @@
           <i class="fa-solid fa-map-location-dot"></i>
           <p><b>오시는 길</b></p>
         </div>
+        <div class="shortCut">
+          <h3>바로가기</h3>
+          <div class="sns">
+            <div class="kakaoTalk">
+              <i class="fa-solid fa-comment"></i>
+              <p><b>카카오톡 채널</b></p>
+            </div>
+            <div class="instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <p><b>인스타그램</b></p>
+            </div>
+          </div>
+        </div>
       </div>
+      
     </section>
     <section class="third">
       <div class="word">
