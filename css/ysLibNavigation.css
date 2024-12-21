@@ -15,9 +15,22 @@ nav .fa-solid {
   display: none;
 }
 
+.bigNavMenu{
+  display: flex;
+  gap: 10px;
+}
+
 .navMenu {
   text-decoration: none;
   color: black;
+  position: relative;
+  display: inline-block;
+  margin: 12px 0px;
+}
+
+.navMenu:hover {
+  padding: auto;
+  color: steelblue;
 }
 
 .libraryLogo {
@@ -35,23 +48,41 @@ nav .fa-solid {
   margin: 10px;
 }
 
-
-.nav1 h3:hover {
-  color: steelblue;
-}
-
 .nav2 {
   background-color: steelblue;
   color: white;
 }
 
-.nav2 p {
-  margin: 0% 0.5%;
-}
-
 .navMenu3 {
   text-decoration: none;
   color: black;
+}
+
+li{
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.navMenuInside {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navMenu:hover .navMenuInside {
+  display: inline-block;
+  background-color: steelblue;
+  color: white;
+  justify-content: flex-end;
+  padding: 0.5% 0%;
+}
+
+.navMenuInside1 {
+  display: inline-block;
 }
 
 @media screen and (min-width : 768px) and (max-width : 1023px) {

@@ -46,33 +46,6 @@
   color: lightblue;
 }
 
-.navMenu {
-  position: relative;
-  display: inline-block;
-}
-
-.navMenuInside {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.navMenu:hover .navMenuInside {
-  display: inline-block;
-  background-color: steelblue;
-  color: white;
-  justify-content: flex-end;
-  padding: 0.5% 0%;
-}
-
-.navMenuInside1 {
-  display: inline-block;
-}
-
 /* 메인 - 섹션 - first */
 .first {
   margin-top: -12%;

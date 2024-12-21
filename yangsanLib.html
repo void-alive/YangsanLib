@@ -36,97 +36,131 @@
   <!-- 마우스 올리면 색 변하고 다른 작은 메뉴들 나오게 -->
   <!-- 여러 시도를 해봤는데 이 이상은 못하겠어요 -->
   <!-- 만약에 더 좋은 방법이 있다면 알려주시면 감사하겠습니다. -->
+
+  <!-- 심지현님 feedback
+서브메뉴에 대해서 피드백을 요청하신 거 같은데 굉장히 잘 만드신 거 같아요.
+만든 것 중에서 조금 아쉽다면 리스트와 a태그를 통해서 만드셨다면 이라는 생각이 들기는 합니다.
+list도 중첩이 가능하니까 서브메뉴 같은 경우에는 리스트 안의 리스트를 사용해서 한 번 구상을 해보시는 것도 괜찮은 것 같습니다.
+그리고 지금 네비바 hover 했을 때 글자 위에 딱 가야 글자 색이 변하는 걸 볼 수가 있던데 글자 살짝 옆에 놓으면 서브메뉴는 나오지만 글자 색은 안나오는 것을 볼 수 있습니다.
+그런 경우도 있으니, 네비바 hover 범위를 어디로 잡아야하나? 도 한 번 생각해 보시면 좋을 거 같습니다. 
+ -->
   <nav>
     <div class="nav1">
       <div class="mobileCard">
-        <span><p>모바일<br>회원증</p></span>
+        <span>
+          <p>모바일<br>회원증</p>
+        </span>
       </div>
       <a href="yangsanLib.html"><img src="images/libraryLogo.png" class="libraryLogo"></a>
       <i class="fa-solid fa-magnifying-glass"></i>
     </div>
-    <div class="navMenu">
-      <span>
-        <h3>이용안내</h3>
-      </span>
-      <div class="navMenuInside">
-        <p>이용시간/휴관일</p>
-        <p>자료이용안내</p>
-        <p>실별안내</p>
-        <p>오시는길</p>
-        <p>책이음 이용안내</p>
+    <div class="bigNavMenu">
+      <div class="navMenu">
+        <div>
+          <h3>이용안내</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>이용시간/휴관일</li>
+            <li>자료이용안내</li>
+            <li>실별안내</li>
+            <li>오시는길</li>
+            <li>책이음 이용안내</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="navMenu">
-      <span>
-        <h3>자료찾기</h3>
-      </span>
-      <div class="navMenuInside">
-        <p>자료찾기</p>
-        <p>신착자료</p>
-        <p>추천자료</p>
-        <p>구독간행물</p>
-        <p>희망도서신청</p>
-        <p>내 서재</p>
-        <p>상호대차</p>
+      <div class="navMenu">
+        <div>
+          <h3>자료찾기</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>자료찾기</li>
+            <li>신착자료</li>
+            <li>추천자료</li>
+            <li>구독간행물</li>
+            <li>희망도서신청</li>
+            <li>내 서재</li>
+            <li>상호대차</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <a href="#" class="navMenu3">
-      <h3 onclick="alert('아직 구현되지 않은 내용입니다.')">전자도서관</h3>
-    </a>
-    <div class="navMenu">
-      <span>
-        <h3>독서문화</h3>
-      </span>
-      <div class="navMenuInside">
-        <p>이달의 행사</p>
-        <p>독서동아리</p>
-        <p>독서프로그램</p>
-        <p>독서치유</p>
-        <p>도서관과행복한동행</p>
-        <p>책이야기나눔터</p>
+      <div class="navMenu">
+        <a href="#" class="navMenu3">
+          <h3 onclick="alert('아직 구현되지 않은 내용입니다.')">전자도서관</h3>
+        </a>
       </div>
-    </div>
-    <div class="navMenu">
-      <span>
-        <h3>학교도서관지원</h3>
-      </span>
-      <div class="navMenuInside">
-        <p>학교도서관지원소개</p>
-        <p>지원신청</p>
-        <p>묻고답하기</p>
-        <p>자료실</p>
+      <div class="navMenu">
+        <div>
+          <h3>독서문화</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>이달의 행사</li>
+            <li>독서동아리</li>
+            <li>독서프로그램</li>
+            <li>독서치유</li>
+            <li>도서관과행복한동행</li>
+            <li>책이야기나눔터</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="navMenu">
-      <h3>평생학습</h3>
-      <div class="navMenuInside">
-        <p>프로그램안내</p>
-        <p>프로그램신청</p>
-        <p>학습동아리</p>
+      <div class="navMenu">
+        <div>
+          <h3>학교도서관지원</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>학교도서관지원소개</li>
+            <li>지원신청</li>
+            <li>묻고답하기</li>
+            <li>자료실</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="navMenu">
-      <h3>열린마당</h3>
-      <div class="navMenuInside">
-        <p>알려드립니다.</p>
-        <p>행사공지</p>
-        <p>열린소리함</p>
-        <p>자주묻는질문</p>
-        <p>청소년 자원봉사</p>
-        <p>공개자료실</p>
-        <p>정보공개/공공데이터개방</p>
+      <div class="navMenu">
+        <div>
+          <h3>평생학습</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>프로그램안내</li>
+            <li>프로그램신청</li>
+            <li>학습동아리</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="navMenu">
-      <h3>도서관소개</h3>
-      <div class="navMenuInside">
-        <p>인사말</p>
-        <p>연혁</p>
-        <p>조직현황</p>
-        <p>시설현황</p>
-        <p>자료현황</p>
-        <p>자체발간자료</p>
-        <p>소식지"나루터"</p>
+      <div class="navMenu">
+        <div>
+          <h3>열린마당</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>알려드립니다.</li>
+            <li>행사공지</li>
+            <li>열린소리함</li>
+            <li>자주묻는질문</li>
+            <li>청소년 자원봉사</li>
+            <li>공개자료실</li>
+            <li>정보공개/공공데이터개방</li>
+          </ul>
+        </div>
+      </div>
+      <div class="navMenu">
+        <div>
+          <h3>도서관소개</h3>
+        </div>
+        <div class="navMenuInside">
+          <ul>
+            <li>인사말</li>
+            <li>연혁</li>
+            <li>조직현황</li>
+            <li>시설현황</li>
+            <li>자료현황</li>
+            <li>자체발간자료</li>
+            <li>소식지"나루터"</li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -351,7 +385,7 @@
           </div>
         </div>
       </div>
-      
+
     </section>
     <section class="third">
       <div class="word">
